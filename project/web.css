@@ -1,0 +1,221 @@
+*{
+	margin:0px auto;
+}
+
+body{
+	font-family: cursive, sans-serif;
+}
+
+header{
+	height: 70px;
+	width: 100%;
+	
+	margin-top: 0 auto;
+}
+
+.logo{
+	float: left;
+	margin-left: 100px;
+}
+
+nav ul li{
+	display:inline-block;
+	margin:30px;
+	float:right;
+	font-size: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.dropbtn {
+     color: black;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: yellow;
+}
+
+.mid_portion{
+	clear: both;
+	background:url(2.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+
+}
+
+/* this for for down arrow key  */
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.down {
+    transform: rotate(45deg);
+
+}
+
+/* arrow key end here  */
+
+/* text inside photo that is contact  */
+
+div ul li{
+	display:inline-block;
+	margin-right:28px;
+	font-size: 18px;
+    margin-top:260px;
+	float: right;
+	
+}
+
+div ul li a{
+	text-decoration: none;
+	color: #C12B0B;
+	text-align: right;
+	float: right;
+}
+
+div ul li a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.container{
+	border-radius: 28px;
+    border:1px solid black;
+    padding: 10px; 
+    width:180px;
+    height: 28px;
+    background: white;   
+}
+
+.container:hover{
+	background: gray;
+	text-decoration: none;
+	color: black;
+}
+
+.container a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.container_2{
+	height: 200px;
+	width: 100%;
+	clear: both;
+}
+
+.image{
+	margin-left: 100px;
+}
+
+._content{
+	float: right;
+	width: 30%;
+	margin-right:180px;
+	padding: 25px;
+}
+
+p{
+	font-size: 25px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.list{
+	display: inline-block;
+}
+
+.image_1{
+	clear: both;
+	background:url(P.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 2000px;
+	margin-top: 0px;
+	height: 720px;
+}
+
+.box{
+	max-width: 800px;
+	max-height:100px;
+	float: left;
+	margin-bottom: 80px;
+}
+
+.box_1{
+	float: right;
+	margin-right:30px;
+	width: 30%;
+	margin-top: 0px;
+	margin-bottom: 80px;
+
+}
+
+aside{
+	clear: both;
+	background-color: gray;
+	width: 100%;
+	height: 500px;
+}
+
+aside ul {
+	clear: both;
+	float: right;
+
+}
+
+aside ul li{
+	color: white;
+	padding: 5px;
+
+}
+
+h5{
+	float: right;
+	padding: 20px;
+	text-align: left;
+	margin-right: 70px;
+}
